@@ -68,7 +68,6 @@
   border-radius: 20px;
 }
 
-/* ========== MOBILE (400px) ========== */
 @media (max-width: 400px) {
   .holder {
     flex-direction: column;

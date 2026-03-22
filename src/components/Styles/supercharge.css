@@ -91,7 +91,7 @@ footer h3 {
   height: 70px;
   object-fit: cover;
 }
-/* ========== MOBILE (400px) ========== */
+
 @media (max-width: 400px) {
   .super-container {
     padding: 20px;

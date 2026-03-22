@@ -71,7 +71,7 @@
   width: 100px;
   height: 100px;
 }
-/* ========== MOBILE (400px) ========== */
+
 @media (max-width: 400px) {
   .See-container {
     width: 100%;
@@ -97,7 +97,7 @@
   .component-holder {
     width: 100%;
     height: auto;
-    overflow-x: auto; /* allow horizontal scroll */
+    overflow-x: auto;
   }
 
   .card-holder {
@@ -109,7 +109,7 @@
   .card-wrap {
     width: 260px;
     height: auto;
-    flex-shrink: 0; /* prevents shrinking */
+    flex-shrink: 0;
   }
 
   .card-wrap h3 {

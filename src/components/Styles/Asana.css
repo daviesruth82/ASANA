@@ -5,11 +5,10 @@
   background-color: beige;
 }
 
-/* Mobile (400px and below) */
 @media (max-width: 400px) {
   .asana-container {
-    height: auto; /* let content define height */
-    min-height: 100vh; /* still fill screen if small content */
-    padding: 10px; /* give spacing on small screens */
+    height: auto;
+    min-height: 100vh;
+    padding: 10px;
   }
 }

@@ -14,18 +14,17 @@
   border-radius: 20px;
 }
 
-/* ========== MOBILE (400px) ========== */
 @media (max-width: 400px) {
   .more-container {
-    height: auto; /* remove fixed height */
-    min-height: 100vh; /* still fill screen */
+    height: auto;
+    min-height: 100vh;
     padding: 20px 12px;
-    align-items: center; /* keep centered */
+    align-items: center;
   }
 
   .more-holder {
     width: 100%;
-    height: auto; /* flexible */
+    height: auto;
     min-height: 250px;
     padding: 20px 15px;
     border-radius: 12px;

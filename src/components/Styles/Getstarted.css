@@ -110,7 +110,6 @@
   font-size: 15px;
 }
 
-/* ================= MOBILE (400px) ================= */
 @media (max-width: 400px) {
   .get-container {
     height: auto;
@@ -125,7 +124,7 @@
   }
 
   .get-upper {
-    flex-direction: column; /* stack */
+    flex-direction: column;
     height: auto;
     gap: 20px;
   }
@@ -154,7 +153,7 @@
   }
 
   .get-lower {
-    flex-direction: column; /* stack cards */
+    flex-direction: column;
     width: 100%;
     height: auto;
   }

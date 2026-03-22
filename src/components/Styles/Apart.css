@@ -75,7 +75,7 @@
   background-color: rgb(34, 40, 118);
   display: flex;
   gap: 20px;
-  /* justify-content:end; */
+
   align-items: end;
   border-radius: 30px;
 }
