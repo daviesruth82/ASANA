@@ -114,3 +114,35 @@ height:30px;
     width:20px;
     height:20px;
 }
+.more-container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(105, 0, 49);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-holder {
+  width: 90%;
+  height: 90%;
+  background-color: palevioletred;
+  border-radius: 20px;
+}
+
+@media (max-width: 400px) {
+  .more-container {
+    height: auto;
+    min-height: 100vh;
+    padding: 20px 12px;
+    align-items: center;
+  }
+
+  .more-holder {
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    padding: 20px 15px;
+    border-radius: 12px;
+  }
+}

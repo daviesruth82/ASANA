@@ -1,105 +1,178 @@
-.get-container{
-    width:100%;
-    height:100vh;
-    min-height: max-content;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:40px;
+.get-container {
+  width: 100%;
+  height: 100vh;
+  min-height: max-content;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
-.get-holder{
-    width:70%;
-    height:50%;
-    background-color: rgb(243, 241, 241);
-     display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
-.get-upper{
-    width:90%;
-    height:60%;
-    /* background-color: azure; */
-    display: flex;
-    align-items: center;
-}
-.get-right{
-    width:50%;
-    height:90%; 
-    /* background-color: palegoldenrod; */
-}
-.get-right  h3{
-    font-size: 30px;
-}
-.get-left p{
-    font-size: 15px;
-}
-.get-left{
-    width:50%;
-    height:100%;
-    /* background-color: palevioletred; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:20px;
-    
-}
-.get-card{
-    width:90%;
-    height:27%;
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
 
+.get-holder {
+  width: 70%;
+  height: 50%;
+  background-color: rgb(243, 241, 241);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-.get-comp{
-    display: flex;
-    justify-content: space-between;
+
+.get-upper {
+  width: 90%;
+  height: 60%;
+  display: flex;
+  align-items: center;
 }
-.get-card p{
-    font-size: 20px;
+
+.get-right {
+  width: 50%;
+  height: 90%;
 }
-.get-comp p{
-    font-size: 14px;
-    color:grey
+
+.get-right h3 {
+  font-size: 30px;
 }
-.get-lower{
-    height:40%;
-    width:70%;
-    /* background-color: blue; */
-    display: flex;
-    /* flex-direction: column; */
-    gap:20px;
-    align-items: center;
-    justify-content: center;
+
+.get-left p {
+  font-size: 15px;
 }
-.lower-containers{
-    width:30%;
-    height:90%;
-    /* background-color: pink; */
-    display: flex;
+
+.get-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.get-card {
+  width: 90%;
+  height: 27%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.get-comp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.get-card p {
+  font-size: 20px;
+}
+
+.get-comp p {
+  font-size: 14px;
+  color: grey;
+}
+
+.get-lower {
+  height: 40%;
+  width: 70%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lower-containers {
+  width: 30%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.get-lower img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: fill;
+}
+
+.lower-link {
+  display: flex;
+}
+
+.lower-link img {
+  width: 40px;
+  height: 20px;
+}
+
+.lower-link p {
+  font-size: 15px;
+}
+
+@media (max-width: 400px) {
+  .get-container {
+    height: auto;
+    padding: 20px 10px;
+    gap: 20px;
+  }
+
+  .get-holder {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .get-upper {
     flex-direction: column;
-    gap:20px;
-    
-    
-}
-.get-lower img{
-width:100%;
-height: 150px;
-border-radius: 10px;
-object-fit: fill;
-}
-.lower-link{
-    display: flex;
-}
-.lower-link img{
-    width:40px;
-    height:20px;
-}
-.lower-link p{
-    font-size: 15px;
+    height: auto;
+    gap: 20px;
+  }
+
+  .get-right,
+  .get-left {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .get-right h3 {
+    font-size: 20px;
+  }
+
+  .get-left p {
+    font-size: 13px;
+  }
+
+  .get-card {
+    height: auto;
+  }
+
+  .get-card p {
+    font-size: 16px;
+  }
+
+  .get-lower {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .lower-containers {
+    width: 100%;
+    height: auto;
+  }
+
+  .get-lower img {
+    height: 120px;
+  }
+
+  .lower-link {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .lower-link p {
+    font-size: 13px;
+  }
 }

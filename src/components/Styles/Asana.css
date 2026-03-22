@@ -1,6 +1,14 @@
-.asana-container{
-    width:100%;
-    height:100vh;
-    min-height: max-content;
-    background-color: beige;
+.asana-container {
+  width: 100%;
+  height: 100vh;
+  min-height: max-content;
+  background-color: beige;
+}
+
+@media (max-width: 400px) {
+  .asana-container {
+    height: auto;
+    min-height: 100vh;
+    padding: 10px;
+  }
 }
