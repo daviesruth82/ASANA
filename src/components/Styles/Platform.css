@@ -1,130 +1,82 @@
-.Platform-con {
-  width: 100%;
-  height: 100vh;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* padding: 100px; */
-}
+/* ========== MOBILE (400px) ========== */
+@media (max-width: 400px) {
+  .Platform-con {
+    height: auto;
+    padding: 20px 0;
+  }
 
-.platform-holder {
-  width: 90%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  /* justify-content: center; */
-  /* background-color: plum; */
-}
-.platform-holder h1 {
-  font-size: 60px;
-}
-.comp-hold {
-  width: 90%;
-  height: 90%;
-  /* background-color:red ; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid gray;
-  border-radius: 10px;
-  gap:20px;
-}
-.btn-cons {
-  width: 90%;
-  height: 30%;
-  /* background-color: rgb(250, 250, 248); */
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  
-}
+  .platform-holder {
+    width: 95%;
+    gap: 20px;
+  }
 
-.btn1{
- width: 150px;
-  height: 60px;
-  /* display: flex; */
-  flex-direction: row;
-  border-radius: 30px; 
-   background-color: pink;  
-   font-size: 25px;
-   border:1px solid white;
+  .platform-holder h1 {
+    font-size: 28px;
+    text-align: center;
+  }
 
-}
-.btn2{
-    width: 150px;
-  height: 60px;
-  /* display: flex; */
-  flex-direction: row;
-  border-radius: 30px;
-  font-size: 25px;
-  border:1px solid white;
-}
-.btn3{
-    width: 80px;
-  height: 60px;
-  /* display: flex; */
-  flex-direction: row;
-  border-radius: 30px;
-  font-size: 25px;
- border:1px solid white;
-}
-.btn4{
-   width: 150px;
-  height: 60px;
-  /* display: flex; */
-  flex-direction: row;
-  border-radius: 30px; 
-  font-size: 25px;
-  border:1px solid white;
-}
+  .comp-hold {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+    gap: 15px;
+  }
 
-.hero-hold {
-  display: flex;
-  height: 70%;
-  width: 90%;
-  /* background-color: aqua; */
-  justify-content: space-between;
-}
-.right-con {
-  width: 48%;
-  height: 100%;
-}
-.right-con img {
-  width: 100%;
-  height: 100%;
-}
-.left-con {
-  width: 48%;
-  height: 100%;
-  padding: 20px;
-  display: flex;
-  flex-direction:column;
-  justify-content: space-between;
-  gap:30px;
-  /* background-color: blue;   */
-}
-.left-con h3{
-    font-size: 40px;
-}
-.list {
-  /* background: #dcd5d5; */
-  display: flex;
-  flex-direction: column;
-  
-  gap:40px;
-}
-.list li {
-  list-style-type:square;
-}
-.getbtn{
-     width: 150px;
-  height: 60px;
-  /* display: flex; */
-  flex-direction: row;
-  border-radius: 30px; 
-  font-size: 20px;
-  border:1px solid rgb(12, 12, 12);
+  .btn-cons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    height: auto;
+  }
+
+  .btn1,
+  .btn2,
+  .btn3,
+  .btn4 {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .hero-hold {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .right-con,
+  .left-con {
+    width: 100%;
+    height: auto;
+  }
+
+  .right-con img {
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .left-con {
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .left-con h3 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .list {
+    gap: 15px;
+  }
+
+  .list li {
+    font-size: 14px;
+  }
+
+  .getbtn {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    align-self: center;
+  }
 }

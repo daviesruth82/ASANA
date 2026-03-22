@@ -1,13 +1,33 @@
-.more-container{
-    width:100%;
-    height:100vh;
-    background-color:rgb(105,0,49); 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.more-container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(105, 0, 49);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.more-holder{
-    width:90%;
-    height:90%;
-    background-color: palevioletred;
+
+.more-holder {
+  width: 90%;
+  height: 90%;
+  background-color: palevioletred;
+  border-radius: 20px;
+}
+
+/* ========== MOBILE (400px) ========== */
+@media (max-width: 400px) {
+  .more-container {
+    height: auto; /* remove fixed height */
+    min-height: 100vh; /* still fill screen */
+    padding: 20px 12px;
+    align-items: center; /* keep centered */
+  }
+
+  .more-holder {
+    width: 100%;
+    height: auto; /* flexible */
+    min-height: 250px;
+    padding: 20px 15px;
+    border-radius: 12px;
+  }
 }
