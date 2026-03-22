@@ -1,0 +1,101 @@
+.company-con{
+    width:100%;
+    height:100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company-hold{
+    width:80%;
+    height:80%;
+    /* background-color: royalblue; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap:30px;
+}
+.text-con{
+width:75%;
+height:25%;
+/* background-color: brown; */
+}
+.text-con h1{
+    font-size: 38px;
+}
+.text-con button{
+    width:170px;
+    height:40px;
+    border-radius: 30px;
+}
+    .comp-hero{
+        width:75%;
+        height:75%;
+        /* background-color: red; */
+        display: flex;
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        
+    }
+.hero-right{
+   width:30%;
+   height:100%;
+   background-color: white; 
+   display: flex;
+   flex-direction: column;
+   gap:20px;
+   padding:30px;
+   color:gray;
+   /* border-radius: 30px; */
+
+   
+}
+
+.comp-img{
+    width:90%;
+    height:60%;
+    /* background-color: blue; */
+}
+.hero-left{
+    width:70%;
+    height:100%;
+    background-color: rgb(203,239,255);
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: space-between;
+    color:rgb(40,47,122);
+    /* border-radius: 30px; */
+}
+.company-text{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    /* background-color: blueviolet; */
+    padding:30px;
+    
+
+}
+.company-text h3{
+    font-size: 20px;
+}
+.comp-btn{
+    width:90%;
+    height: 20%;
+  display: flex;
+  justify-content: flex-end;  
+  /* background-color: olivedrab; */
+}
+.comp-btn button{
+    width:170px;
+    height:40px;
+    background-color: rgb(203,239,255);
+    border-radius: 30px;
+    border: 1px solid rgb(40,47,122);
+    color: rgb(40,47,122);
+    font-size: 15px;
+
+}

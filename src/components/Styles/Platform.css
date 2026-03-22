@@ -1,0 +1,130 @@
+.Platform-con {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 100px; */
+}
+
+.platform-holder {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  /* justify-content: center; */
+  /* background-color: plum; */
+}
+.platform-holder h1 {
+  font-size: 60px;
+}
+.comp-hold {
+  width: 90%;
+  height: 90%;
+  /* background-color:red ; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  gap:20px;
+}
+.btn-cons {
+  width: 90%;
+  height: 30%;
+  /* background-color: rgb(250, 250, 248); */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.btn1{
+ width: 150px;
+  height: 60px;
+  /* display: flex; */
+  flex-direction: row;
+  border-radius: 30px; 
+   background-color: pink;  
+   font-size: 25px;
+   border:1px solid white;
+
+}
+.btn2{
+    width: 150px;
+  height: 60px;
+  /* display: flex; */
+  flex-direction: row;
+  border-radius: 30px;
+  font-size: 25px;
+  border:1px solid white;
+}
+.btn3{
+    width: 80px;
+  height: 60px;
+  /* display: flex; */
+  flex-direction: row;
+  border-radius: 30px;
+  font-size: 25px;
+ border:1px solid white;
+}
+.btn4{
+   width: 150px;
+  height: 60px;
+  /* display: flex; */
+  flex-direction: row;
+  border-radius: 30px; 
+  font-size: 25px;
+  border:1px solid white;
+}
+
+.hero-hold {
+  display: flex;
+  height: 70%;
+  width: 90%;
+  /* background-color: aqua; */
+  justify-content: space-between;
+}
+.right-con {
+  width: 48%;
+  height: 100%;
+}
+.right-con img {
+  width: 100%;
+  height: 100%;
+}
+.left-con {
+  width: 48%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  gap:30px;
+  /* background-color: blue;   */
+}
+.left-con h3{
+    font-size: 40px;
+}
+.list {
+  /* background: #dcd5d5; */
+  display: flex;
+  flex-direction: column;
+  
+  gap:40px;
+}
+.list li {
+  list-style-type:square;
+}
+.getbtn{
+     width: 150px;
+  height: 60px;
+  /* display: flex; */
+  flex-direction: row;
+  border-radius: 30px; 
+  font-size: 20px;
+  border:1px solid rgb(12, 12, 12);
+}
